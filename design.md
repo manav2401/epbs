@@ -4,7 +4,7 @@ Below mentioned is my personal understanding of ePBS from the specs. It'll be pr
 
 ### Overview
 
-The generic idea behind enshrining proposer builder separation is to reduce the dependency on centralised builders in the current out-of-protocol PBS mechanism such as Flashbots. Moreover, this also helps validators with high stake to become builders and have the whole interaction between a proposer and builder happen in the protocol itself which will keep them accountable for dishonest behaviour.
+The generic idea behind enshrining proposer builder separation is to reduce the dependency on centralised relayers out-of-protocol relayers who are responsible for (in protocol) proposer and (out of protocol) builder communication like bidding, dispute resolution, etc. Moreover, this also helps validators with high stake to become builders and have the whole interaction between a proposer and builder happen in the protocol itself which will keep them accountable for dishonest behaviour.
 
 ### Slot lifecycle
 
